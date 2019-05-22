@@ -1,5 +1,5 @@
 # FaceDetector
-An application that runs on Android things toolkit. Does basic facial recognition and object recognition thanks to the Firebase Machine Learning API and cloud vision.It takes a picture of a person and analyses the persons facial features. It can determine if the person is smiling , Sad e.t.c. [Read more here] (https://github.com/survivingwithandroid/Surviving-with-android/tree/master/AndroidThings_FaceDetector)
+An application that runs on Android things toolkit. Does basic facial recognition and object recognition thanks to the Firebase Machine Learning API and cloud vision.It takes a picture of a person and analyses the persons facial features. It can determine if the person is smiling , Sad e.t.c.
 
 ## Installation
 This project is on android so you'll definitely need Android Studio.
@@ -12,6 +12,7 @@ For the interaction with the rainbowhat .
 ```
 
 ## Usage
+[Read more here](https://github.com/survivingwithandroid/Surviving-with-android/tree/master/AndroidThings_FaceDetector)
 
 ```text
 The application will take a picture when you press the 'A' Button. It will then save the image to a cloud storage bucket. From there it will upload the image to firebase where it will user the machine Learning api where it will run facial recognition. From this it will determine various things based on the landmarks on your face. From there it will also send the image the Cloud Vision API where it will do object detection and return a list of objects .
